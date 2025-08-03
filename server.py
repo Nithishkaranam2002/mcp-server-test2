@@ -1,6 +1,6 @@
 import os
 import uvicorn
-from mcp.server.fastapi import FastMCP
+from mcp.server.fastmcp import FastMCP  
 
 # Your existing MCP server setup
 mcp = FastMCP("server")
